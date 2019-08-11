@@ -1,0 +1,24 @@
+title: Collecting data out of network configs
+status: experimental
+description: Reading configuration files for interesting data
+references:
+    - https://attack.mitre.org/techniques/T1005
+author: Austin Clark
+date: 2019/08/11
+tags:
+    - attack.collection
+    - attack.t1005
+logsource:
+    product: cisco
+    service: aaa
+    category: accounting
+fields:
+    - CmdSet
+detection:
+    keywords:
+        - 'show'
+        - 'more'
+    condition: keywords
+falsepositives:
+    - Commonly run by administrators.
+level: low

@@ -1,0 +1,24 @@
+title: Show Commands Input
+status: experimental
+description: See what commands are being input into the device by other people
+references:
+    - https://attack.mitre.org/techniques/T1056
+author: Austin Clark
+date: 2019/08/11
+tags:
+    - attack.collection
+    - attack.t1056
+logsource:
+    product: cisco
+    service: aaa
+    category: accounting
+fields:
+    - CmdSet
+detection:
+    keywords:
+        - 'show history'
+        - 'show logging'
+    condition: keywords
+falsepositives:
+    - Not commonly run by administrators, especially if remote logging is configured.
+level: medium

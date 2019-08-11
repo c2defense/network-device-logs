@@ -1,0 +1,23 @@
+title: Export Private Keys
+status: experimental
+description: Show when private keys are being exported from the device
+references:
+    - https://attack.mitre.org/techniques/T1145
+author: Austin Clark
+date: 2019/08/11
+tags:
+    - attack.credential_access
+    - attack.t1145
+logsource:
+    product: cisco
+    service: aaa
+    category: accounting
+fields:
+    - CmdSet
+detection:
+    keywords:
+        - 'crypto pki export'
+    condition: keywords
+falsepositives:
+    - Not commonly run by administrators.
+level: high

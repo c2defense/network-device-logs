@@ -1,0 +1,24 @@
+title: Disabling Logging
+status: experimental
+description: Turn of logging locally or remote
+references:
+    - https://attack.mitre.org/techniques/T1089
+author: Austin Clark
+date: 2019/08/11
+tags:
+    - attack.defense_evasion
+    - attack.t1089
+logsource:
+    product: cisco
+    service: aaa
+    category: accounting
+fields:
+    - CmdSet
+detection:
+    keywords:
+        - 'no logging'
+        - 'no aaa new-model'
+    condition: keywords
+falsepositives:
+    - Unknown
+level: high

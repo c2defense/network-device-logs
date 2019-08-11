@@ -1,0 +1,26 @@
+title: Stage Data on device
+status: experimental
+description: Various protocols maybe used to put data on the device for exfil or infil
+references:
+    - https://attack.mitre.org/techniques/T1074
+author: Austin Clark
+date: 2019/08/11
+tags:
+    - attack.collection
+    - attack.t1074
+logsource:
+    product: cisco
+    service: aaa
+    category: accounting
+fields:
+    - CmdSet
+detection:
+    keywords:
+        - 'tftp'
+        - 'rcp'
+        - 'puts'
+        - 'copy'
+    condition: keywords
+falsepositives:
+    - Generally used to copy configs or IOS images.
+level: low
