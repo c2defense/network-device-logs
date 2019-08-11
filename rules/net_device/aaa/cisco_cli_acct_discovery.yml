@@ -1,0 +1,24 @@
+title: Discover Local Accounts
+status: experimental
+description: Find local account names in the configuration files
+references:
+    - https://attack.mitre.org/techniques/T1087
+author: Austin Clark
+date: 2019/08/11
+tags:
+    - attack.discovery
+    - attack.t1087
+logsource:
+    product: cisco
+    service: aaa
+    category: accounting
+fields:
+    - CmdSet
+detection:
+    keywords:
+        - 'show running-config'
+        - 'show startup-config'
+    condition: keywords
+falsepositives:
+    - Commonly run by administrators.
+level: low
