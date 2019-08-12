@@ -1,12 +1,20 @@
-title: Collecting data out of network configs
+title: Collect Data
 status: experimental
-description: Reading configuration files for interesting data
+description: Collect pertinent data from the configuration files
 references:
-    - https://attack.mitre.org/techniques/T1005
+    - https://attack.mitre.org/techniques/T1087/
+    - https://attack.mitre.org/techniques/T1003/
+    - https://attack.mitre.org/techniques/T1081/
+    - https://attack.mitre.org/techniques/T1005/
 author: Austin Clark
 date: 2019/08/11
 tags:
+    - attack.discovery
+    - attack.credential_access
     - attack.collection
+    - attack.t1087
+    - attack.t1003
+    - attack.t1081
     - attack.t1005
 logsource:
     product: cisco
@@ -16,7 +24,9 @@ fields:
     - CmdSet
 detection:
     keywords:
-        - 'show'
+        - 'show running-config'
+        - 'show startup-config'
+        - 'show archive config'
         - 'more'
     condition: keywords
 falsepositives:

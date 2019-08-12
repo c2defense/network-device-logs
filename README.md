@@ -1,8 +1,8 @@
 # Network Device Logging and Analytics
-A way to find the adversary in you network devices
+A way to find the adversary in your network devices
 
 ## Overview
-Network devices are end points too. That's why I mapped the MITRE ATT&CK Enterprise Tactics and Techniques to the network devices and their operating systems. I hope the MITRE ATT&CK team incorporates these changes in. Additionally, there are simple Sigma rules to aide in the detection.
+Network devices are end points too. That's why I mapped the MITRE ATT&CK Enterprise Tactics and Techniques to the network devices and their operating systems. I hope the MITRE ATT&CK team incorporates these changes in. Additionally, there are simple Sigma rules to aide in detection.
 
 ## MITRE ATT&CK Model
 Out of the current 244 Enterprise ATT&CK Techniques, I believe that 64 of them can apply to Network Devices as endpoints to be exploited. They are listed in the MITRE folder, along with a JSON file of the Techniques from ATT&CK Navigator.
