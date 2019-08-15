@@ -4,11 +4,14 @@ description: Modifications to a config that will serve an adversaries impacts or
 references:
     - https://attack.mitre.org/techniques/T1100/
     - https://attack.mitre.org/techniques/T1168/
+    - https://attack.mitre.org/techniques/T1493/
 author: Austin Clark
 date: 2019/08/12
 tags:
     - attack.persistence
     - attack.privilege_escalation
+    - attack.impact
+    - attack.t1493
     - attack.t1100
     - attack.t1168
     - attack.t1490
