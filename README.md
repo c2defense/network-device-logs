@@ -22,6 +22,6 @@ In the rules directory are 12 rules that map back to MITRE ATT&CK Techniques. Th
 ## AAA Logging References
 To read more about TACACS and RADIUS see this [resource](https://tacacs.net/docs/TACACS_Advantages.pdf "tacacs.net").
 
-### References
+## References
 * Thanks to Florian and his Sigma project https://github.com/Neo23x0/sigma
 * Thanks to the ATT&CK Team at MITRE https://github.com/mitre-attack
