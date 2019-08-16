@@ -1,6 +1,6 @@
 title: Disabling Logging
 status: experimental
-description: Turn of logging locally or remote
+description: Turn off logging locally or remote
 references:
     - https://attack.mitre.org/techniques/T1089
 author: Austin Clark

@@ -1,6 +1,6 @@
 title: Modify Configuration
 status: experimental
-description: Modifications to a config that will serve an adversaries impacts or persistance
+description: Modifications to a config that will serve an adversary's impacts or persistence
 references:
     - https://attack.mitre.org/techniques/T1100/
     - https://attack.mitre.org/techniques/T1168/

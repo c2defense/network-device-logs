@@ -2,7 +2,7 @@
 A way to find the adversary in your network devices
 
 ## Overview
-Network devices are end points too. That's why I mapped the [MITRE ATT&CK Enterprise Tactics and Techniques](https://attack.mitre.org/tactics/enterprise/) to the network devices and their operating systems. I hope the MITRE ATT&CK team incorporates these changes in. Additionally, there are simple Sigma rules to aide in detection.
+Network devices are end points too. That's why I mapped the [MITRE ATT&CK Enterprise Tactics and Techniques](https://attack.mitre.org/tactics/enterprise/) to the network devices and their operating systems. I hope the MITRE ATT&CK team incorporates these changes. Additionally, there are simple Sigma rules to aide in detection.
 
 ## MITRE ATT&CK Model
 Out of the current 244 Enterprise ATT&CK [Techniques](https://attack.mitre.org/techniques/enterprise/), I believe that 64 of them can apply to Network Devices as endpoints to be exploited. They are listed in the [MITRE folder](mitre_attack), along with a [JSON file](mitre_attack/Network_Device_Techniques.json) of the Techniques from [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/enterprise/).
