@@ -13,7 +13,11 @@ logsource:
     service: aaa
     category: accounting
 fields:
+    - src
     - CmdSet
+    - User
+    - Privilege_Level
+    - Remote_Address
 detection:
     keywords:
         - 'no logging'

@@ -21,7 +21,11 @@ logsource:
     service: aaa
     category: accounting
 fields:
+    - src
     - CmdSet
+    - User
+    - Privilege_Level
+    - Remote_Address
 detection:
     keywords:
         - 'dir'
@@ -35,7 +39,6 @@ detection:
         - 'show users'
         - 'show ssh'
         - 'show clock'
-        - 'show clock detail'
     condition: keywords
 falsepositives:
     - Commonly used by administrators for troubleshooting
