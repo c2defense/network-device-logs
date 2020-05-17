@@ -1,6 +1,9 @@
-![map](Network_Device_Techniques.svg)
+#Network Device Techniques by Data Source, now with Sub-Tecniques!
+![map](Network_Device_Sub-Techniques.svg)
 
-Upload the [JSON](Network_Device_Techniques.json) file to an [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/enterprise/) instance to replicate the above image.
+For Beta ATT&CK with Sub-Techniques use this [JSON](Network_Device_Sub-Techniques.json) file to this [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/beta/enterprise/) instance to replicate the above image.
+
+For legacy ATT&CK upload this [JSON](Network_Device_Techniques.json) file to an [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/enterprise/) instance to replicate the legacy image.
 
 |Label    |Tactic                                                                  |Technique                             |Sub-Technique                                         |Data Sources                                |Example Commands                                                        |Comments                                                                                                                                                                                                                                                                                                                                                                          |
 |---------|------------------------------------------------------------------------|--------------------------------------|------------------------------------------------------|--------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
