@@ -1,5 +1,5 @@
 #Network Device Techniques by Data Source, now with Sub-Tecniques!
-![map](Network_Device_Sub-Techniques.svg)
+![map](Network_Device_SubTechniques.svg)
 
 For Beta ATT&CK with Sub-Techniques use this [JSON](Network_Device_Sub-Techniques.json) file to this [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/beta/enterprise/) instance to replicate the above image.
 
