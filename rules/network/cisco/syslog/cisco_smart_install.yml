@@ -1,0 +1,28 @@
+title: Cisco Smart Install Exploit CVE-2018–0171
+id: cc96c8e2-f803-4e6c-bf83-218b4e906570
+status: experimental
+description: 
+author: Austin Clark
+date: 2021/01/03
+references:
+    - 'https://blogs.cisco.com/security/cisco-psirt-mitigating-and-detecting-potential-abuse-of-cisco-smart-install-feature'
+logsource:
+    product: cisco
+    service: syslog
+    category: informational
+fields:
+    - facility
+    - mnemonic
+    - severity
+    - message_text
+detection:
+    keywords:
+        - '%SMI-6-DWNLD_STARTED'
+        - '%SMI-6-UPGRD_STARTED'
+    condition: keywords
+falsepositives:
+    - Administrators may leverage smart install to perform initial installation and configuration, if smart install is not used disable with 'no vstack'
+level: high
+tags:
+    - attack.initial_access
+    - attack.t1190
