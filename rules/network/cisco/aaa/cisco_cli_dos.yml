@@ -1,15 +1,11 @@
-title: Denial of Service
+
+title: Cisco Denial of Service
+id: d94a35f0-7a29-45f6-90a0-80df6159967c
 status: experimental
-description: Detect a system being shutdown or put into different boot mode.
-references:
-    - https://attack.mitre.org/techniques/T1499/
-    - https://attack.mitre.org/techniques/T1495/
+description: Detect a system being shutdown or put into different boot mode
 author: Austin Clark
 date: 2019/08/15
-tags:
-    - attack.impact
-    - attack.t1499
-    - attack.t1495
+modified: 2020/09/02
 logsource:
     product: cisco
     service: aaa
@@ -25,3 +21,7 @@ detection:
 falsepositives:
     - Legitimate administrators may run these commands, though rarely.
 level: medium
+tags:
+    - attack.impact
+    - attack.t1495
+    - attack.t1529

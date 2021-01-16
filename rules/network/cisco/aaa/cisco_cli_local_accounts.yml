@@ -1,7 +1,7 @@
 title: Cisco Local Accounts
 id: 6d844f0f-1c18-41af-8f19-33e7654edfc3
 status: experimental
-description: Find local accounts being created or modified 
+description: Create or modify local accounts 
 author: Austin Clark
 date: 2019/08/12
 modified: 2021/01/03
