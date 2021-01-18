@@ -19,7 +19,7 @@ detection:
     keywords:
         - 'no logging'
         - 'no aaa new-model'
-        - 'no accounting'
+        - 'no aaa accounting'
     condition: keywords
 falsepositives:
     - Unknown
